@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Space+Grotesk:wght@300..700&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+
     <link
       rel="icon"
       type="image/png"
@@ -14,16 +21,7 @@
 
     <title>Frontend Mentor | Recipe page</title>
 
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
   <body>
     <h1>Simple Omelette Recipe</h1>
@@ -33,12 +31,21 @@
       choice of cheese, vegetables, or meats.
     </p>
 
-    <p>Preparation time</p>
+    <p class="thick">Preparation time</p>
 
     <ul>
-      <li>Total: Approximately 10 minutes</li>
-      <li>Preparation: 5 minutes</li>
-      <li>Cooking: 5 minutes</li>
+      <li>
+        <p class="thick">Total:</p>
+        Approximately 10 minutes
+      </li>
+      <li>
+        <p class="thick">Preparation:</p>
+        5 minutes
+      </li>
+      <li>
+        <p class="thick">Cooking:</p>
+        5 minutes
+      </li>
     </ul>
 
     <h2>Ingredients</h2>
@@ -57,29 +64,61 @@
 
     <ol>
       <li>
-        Beat the eggs: In a bowl, beat the eggs with a pinch of salt and pepper
-        until they are well mixed. You can add a tablespoon of water or milk for
-        a fluffier texture.
+        <p class="thick">
+          Beat the eggs:
+          <span
+            >In a bowl, beat the eggs with a pinch of salt and pepper until they
+            are well mixed. You can add a tablespoon of water or milk for a
+            fluffier texture.</span
+          >
+        </p>
       </li>
       <li>
-        Heat the pan: Place a non-stick frying pan over medium heat and add
-        butter or oil.
+        <p class="thick">
+          Heat the pan:
+          <span>
+            Place a non-stick frying pan over medium heat and add butter or
+            oil.</span
+          >
+        </p>
       </li>
       <li>
-        Cook the omelette: Once the butter is melted and bubbling, pour in the
-        eggs. Tilt the pan to ensure the eggs evenly coat the surface.
+        <p class="thick">
+          Cook the omelette:
+          <span
+            >Once the butter is melted and bubbling, pour in the eggs. Tilt the
+            pan to ensure the eggs evenly coat the surface.</span
+          >
+        </p>
       </li>
       <li>
-        Add fillings (optional): When the eggs begin to set at the edges but are
-        still slightly runny in the middle, sprinkle your chosen fillings over
-        one half of the omelette.
+        <p class="thick">
+          Add fillings (optional):
+          <span class="inline"
+            >When the eggs begin to set at the edges but are still slightly
+            runny in the middle, sprinkle your chosen fillings over one half of
+            the omelette.</span
+          >
+        </p>
       </li>
       <li>
-        Fold and serve: As the omelette continues to cook, carefully lift one
-        edge and fold it over the fillings. Let it cook for another minute, then
-        slide it onto a plate.
+        <p class="thick">
+          Fold and serve:
+          <span class="inline"
+            >As the omelette continues to cook, carefully lift one edge and fold
+            it over the fillings. Let it cook for another minute, then slide it
+            onto a plate.</span
+          >
+        </p>
       </li>
-      <li>Enjoy: Serve hot, with additional salt and pepper if needed.</li>
+      <li>
+        <p class="thick">
+          Enjoy:
+          <span class="inline"
+            >Serve hot, with additional salt and pepper if needed.</span
+          >
+        </p>
+      </li>
     </ol>
 
     <h2>Nutrition</h2>
