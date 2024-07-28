@@ -11,10 +11,18 @@
   font-style: normal;
 }
 
+body {
+  background-color: hsl(32, 54%, 90%);
+}
+
 h1,
 h2 {
   font-family: "Young Serif", serif;
   font-weight: 400;
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
 }
 
 p,
@@ -33,4 +41,9 @@ p.thick {
 
 .inline {
   display: inline;
+}
+
+.highlight {
+  color: hsl(332, 51%, 32%);
+  font-weight: bold;
 }
