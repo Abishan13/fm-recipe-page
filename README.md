@@ -30,11 +30,11 @@ You can find more details about the challenge [here](https://www.frontendmentor.
 
 #### Web View
 
-![Web View](./assets/screenshot/screenshotWeb.png)
+![Web View](./assets/screenshots/screenshotWeb.png)
 
 #### Mobile View
 
-![Mobile View](./assets/screenshot/screenshotMobile.png)
+![Mobile View](./assets/screenshots/screenshotMobile.png)
 
 ### Links
 
