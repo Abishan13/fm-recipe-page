@@ -1,48 +1,63 @@
-# Frontend Mentor - Recipe page solution
+# Frontend Mentor - Recipe Page Solution
 
-This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm).
+This repository contains my solution to the [Recipe Page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). The challenge involved creating a visually appealing and functional recipe page, showcasing the ingredients and cooking instructions.
 
-## Table of contents
+## Table of Contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [The Challenge](#the-challenge)
+  - [Screenshots](#screenshots)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
+- [My Process](#my-process)
+  - [Built With](#built-with)
 - [Author](#author)
 
 ## Overview
 
-The "Recipe Page" project is an implementation of a cooking recipe page, designed to provide a smooth and intuitive user experience. This project is part of a challenge proposed by Frontend Mentor, aimed at strengthening frontend development skills.
+The "Recipe Page" project is an exercise in building a clean, user-friendly cooking recipe page. It focuses on delivering an intuitive and seamless user experience, allowing users to easily navigate through the recipe details. This project was undertaken as part of a challenge on Frontend Mentor, designed to enhance my frontend development skills.
 
-## The challenge
+### The Challenge
 
-- Recipe Page from Frontend Mentor : (https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm)
+The goal was to create a responsive recipe page that includes:
 
-### Screenshot
+- A list of ingredients
+- Step-by-step cooking instructions
+- An attractive layout for both web and mobile views
 
-![](./assets/screenshot/screenshotWeb.png)
-![](./assets/screenshot/screenshotMobile.png)
+You can find more details about the challenge [here](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm).
+
+### Screenshots
+
+#### Web View
+
+![Web View](./assets/screenshot/screenshotWeb.png)
+
+#### Mobile View
+
+![Mobile View](./assets/screenshot/screenshotMobile.png)
 
 ### Links
 
-- Solution URL: (https://github.com/Abishan13/fm-recipe-page)
-- Live Site URL: (https://abishan13.github.io/fm-recipe-page/)
+- **Solution URL:** [GitHub Repository](https://github.com/Abishan13/fm-recipe-page)
+- **Live Site URL:** [Live Demo](https://abishan13.github.io/fm-recipe-page/)
 
-## My process
+## My Process
 
-I started by laying out the semantic HTML structure. This involved organizing the content into appropriate sections, using tags like <header>,<body>, and <footer> to ensure a well-structured and accessible page. The semantic HTML not only helped in making the content more understandable but also improved the SEO and accessibility of the project.
+1. **Planning and Structure:** I started by defining the semantic HTML structure, organizing the content into meaningful sections. This included using tags like `<header>`, `<main>`, `<section>`, and `<footer>` to create a clear and accessible layout.
 
-After completing the HTML structure, I moved on to the CSS styling. This phase involved defining the visual aspects of the page, including layout, colors, typography, and responsiveness. I utilized modern CSS techniques such as Flexbox and Grid to create a responsive design that adapts to various screen sizes. Additionally, I applied custom fonts, color schemes, and styling elements to enhance the visual appeal and usability of the page.
+2. **Styling and Design:** Once the HTML structure was in place, I focused on the CSS styling. I employed modern CSS techniques such as Flexbox and Grid to create a responsive design that works well on various devices. The design phase also involved choosing a color scheme, setting typography, and ensuring consistent spacing and alignment.
 
-### Built with
+3. **Responsive Design:** Special attention was given to making the page responsive, ensuring that it provides a smooth user experience on both mobile and desktop devices. This involved media queries and flexible layouts that adapt to different screen sizes.
 
-- Semantic HTML5 markup
-- CSS
+### Built With
+
+- **Semantic HTML5 Markup:** For a clear and accessible structure.
+- **CSS:** Including modern techniques like Flexbox and Grid for layout.
 
 ## Author
 
-- Website - [Abishan Arulneethan](https://arulabishan.dev/)
-- Frontend Mentor - [@Abishan13](https://www.frontendmentor.io/profile/Abishan13)
-- Github - [@Abishan13](https://github.com/Abishan13)
+- **Website:** [Abishan Arulneethan](https://arulabishan.dev/)
+- **Frontend Mentor:** [@Abishan13](https://www.frontendmentor.io/profile/Abishan13)
+- **GitHub:** [@Abishan13](https://github.com/Abishan13)
+
+Feel free to explore the project, and don't hesitate to reach out if you have any questions or feedback!
